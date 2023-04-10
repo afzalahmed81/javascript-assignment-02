@@ -1,5 +1,5 @@
 function outerFunc(num1) {
-   return function innerFunc(num2) {
+   return function (num2) {
         console.log(num1 + num2);
 
     }
